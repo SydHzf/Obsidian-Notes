@@ -1,0 +1,51 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": false,
+  "showAttachments": true,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "line:(data)",
+      "color": {
+        "a": 1,
+        "rgb": 9067765
+      }
+    },
+    {
+      "query": "line:(coding)",
+      "color": {
+        "a": 1,
+        "rgb": 5415904
+      }
+    },
+    {
+      "query": "line:(service)",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "line:(SQL)",
+      "color": {
+        "a": 1,
+        "rgb": 6749952
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": -1.3,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.504158004158004,
+  "repelStrength": 10,
+  "linkStrength": 0.495841995841996,
+  "linkDistance": 251,
+  "scale": 0.33412431323882164,
+  "close": true
+}

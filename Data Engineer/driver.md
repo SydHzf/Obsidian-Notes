@@ -1,0 +1,11 @@
+___
+- read the plan
+- what plan to run what play to run
+- driver settings
+	- spark.driver.memory
+	- spark.driver.memoryOverheadFactor
+- Driver need memory to process the plan
+- Driver determines few things:
+	- when to run players to plan
+	- joins the dataset
+	- how much parallelism is needed

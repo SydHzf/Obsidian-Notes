@@ -1,0 +1,2 @@
+___
+**Repeatable analysis** in data engineering means creating processes or workflows that can be run multiple times to produce the same results, as long as the input data and settings are the same. It ensures that the analysis is consistent, reliable, and easy to reuse.

@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"id":"ae0bbda841eb8e47","type":"text","text":"DataFrame/SparkSQL","x":-460,"y":-200,"width":250,"height":50,"color":"1"},
+		{"id":"150fde23346ff65c","type":"text","text":"DataFrame/SparkSQL","x":160,"y":-200,"width":250,"height":50,"color":"1"},
+		{"id":"18c2f3e8ba8e33df","type":"text","text":"SPARK CORE","x":-460,"y":-120,"width":870,"height":225,"color":"2"},
+		{"id":"0432140f7ac6fc7c","type":"text","text":"Python","x":-440,"y":-12,"width":250,"height":50,"color":"4"},
+		{"id":"da094004e24c962c","type":"text","text":"Java","x":-140,"y":-12,"width":250,"height":50,"color":"4"},
+		{"id":"5b7ec9131b29dbdd","type":"text","text":"Scala","x":140,"y":-12,"width":250,"height":50,"color":"4"},
+		{"id":"b2144017aa7f2c35","type":"text","text":"SPARK ENGINE (convert our code into rdd)","x":-460,"y":140,"width":870,"height":81,"color":"6"},
+		{"id":"fed381b25af61305","type":"text","text":"DataFrame/SparkSQL","x":-150,"y":-200,"width":250,"height":50,"color":"1"},
+		{"id":"43eb66545cd47216","type":"text","text":"Worker Machine","x":160,"y":460,"width":250,"height":60,"color":"#000000"},
+		{"id":"5ec6a59dbd32928e","type":"text","text":"Worker Machine","x":-460,"y":460,"width":250,"height":60,"color":"#131313"},
+		{"id":"f9f8a98dc6305443","type":"text","text":"Worker Machine","x":-150,"y":460,"width":250,"height":60,"color":"#131313"},
+		{"id":"f4bb0297281ec897","type":"text","text":"High Level API(Libraries)","x":-760,"y":-210,"width":250,"height":60},
+		{"id":"26c077bec1cd89d2","type":"text","text":"Low Level API (RDD)","x":-760,"y":-120,"width":250,"height":60},
+		{"id":"a200982af21876c0","type":"text","text":"Diver Machine","x":-780,"y":460,"width":250,"height":60},
+		{"id":"e7b13770f4c6da80","type":"text","text":"Spark Core","x":-760,"y":-42,"width":250,"height":263},
+		{"id":"4e31e4accecb3d89","type":"text","text":"Cluster Managers (YARN, Mesos, StandAlone,etc)","x":-460,"y":340,"width":870,"height":81,"color":"5"}
+	],
+	"edges":[
+		{"id":"ac4fdac45e478e7a","fromNode":"ae0bbda841eb8e47","fromSide":"bottom","toNode":"18c2f3e8ba8e33df","toSide":"left"},
+		{"id":"8833165e89342d6f","fromNode":"150fde23346ff65c","fromSide":"bottom","toNode":"18c2f3e8ba8e33df","toSide":"right"},
+		{"id":"b587e389ae85a0be","fromNode":"18c2f3e8ba8e33df","fromSide":"bottom","toNode":"b2144017aa7f2c35","toSide":"top"},
+		{"id":"bf3cfa77ae60eeb2","fromNode":"fed381b25af61305","fromSide":"bottom","toNode":"18c2f3e8ba8e33df","toSide":"top"},
+		{"id":"a5b55cfaf737a6a4","fromNode":"b2144017aa7f2c35","fromSide":"bottom","toNode":"4e31e4accecb3d89","toSide":"top"},
+		{"id":"1f7d1aeab3b1f9ed","fromNode":"4e31e4accecb3d89","fromSide":"left","toNode":"5ec6a59dbd32928e","toSide":"left"},
+		{"id":"d8d32001c5aebbf8","fromNode":"4e31e4accecb3d89","fromSide":"bottom","toNode":"f9f8a98dc6305443","toSide":"top"},
+		{"id":"aacacee2ff68a1d4","fromNode":"4e31e4accecb3d89","fromSide":"right","toNode":"43eb66545cd47216","toSide":"right"},
+		{"id":"69b092a48d054bc1","fromNode":"b2144017aa7f2c35","fromSide":"bottom","toNode":"4e31e4accecb3d89","toSide":"top"},
+		{"id":"9a0488704a896709","fromNode":"b2144017aa7f2c35","fromSide":"bottom","toNode":"4e31e4accecb3d89","toSide":"top","label":"How much and many resources we want"},
+		{"id":"86a71f78b166230c","fromNode":"4e31e4accecb3d89","fromSide":"left","toNode":"a200982af21876c0","toSide":"top"}
+	]
+}

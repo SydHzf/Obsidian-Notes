@@ -1,0 +1,71 @@
+___
+- Data Engineering
+	- Cook book
+		- [[The Data Engineering CookBook.pdf]]
+	- Coding Questions.
+		- [[Interview Questions]]
+		- [[Data Structures and Algorithms]]
+		- [[PDF]]
+		- [[Youtube Vidoes]]
+	- Data Storage concepts.[Database Topics](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbEJKSVNhMTJQd1hyZk1SU3hObTZTemVOaXJGQXxBQ3Jtc0trU0t0RTR3VTZmMWRTTElJX1NQUWNPR0ZJdUtyVTRTa3FZTkd5SGkyR2JBdGJkMmt2OFZoaXZUcENYZHoxSXM3SVlYQUM1UGhvZy16d3R1N1J3aHpkd20ybGxCeVcySWgwUEw1OGZvZ21LdXVuM2Q3MA&q=https%3A%2F%2Farpitbhayani.me%2Fknowledge-base&v=wXvljefXyEo)
+			- [[ACID]]
+			- [[Architectures]]
+			- [[Databases|Different Databases]]
+			- [[Data Models]]
+			- [[Normalization]]
+			- [[Schema]]
+			- [[SQL]]
+			- [[PLSQL]]
+			- [[SQL#Indexing|Indexing]]
+			- [[Hashing]]
+			- [[Partitioning And Sharding]] 
+			- [[Type of Keys]]
+			- [[Transaction|Transaction Control & Concurrency]]
+			- [[Type Of Schema]] 
+	- Dimensional Data Modelling 
+		- [[OLTP (OnLine Transection Process)]]
+		- [[OLAP (OnLine Analytics Process)]]
+		- [[Master Data]]
+			![[Pasted image 20241210112311.png]]
+	
+	- Concepts.
+		- [[Life Cycle]]
+		- [[DE Infrastructure]]
+		- [[Data Modeling]]
+	- Tools.
+		- [[Python]]
+		- [Cloud](https://www.linkedin.com/embed/feed/update/urn:li:share:7256870603150811136)
+		- ETL Service
+			- [[Amazon Glue]]
+		-  Data Analytics Platform
+			- [[DataBricks]]
+		- Data Ingestion
+			- [[Cloud Pub-Sub]]
+			- [[Kafka]]
+		- Data Processing Backends
+			- [[DataFlow]]
+			- [[Spark]]
+		- Pipeline Template
+			- [[Beam]]
+		- Data Orchestrator
+			- [[Airflow]]
+	-  Data Storage
+		- [[Vector Database]]
+		- [[Data Lake]]
+		- [[Data Warehouse]]
+		- [[Data Mart]]
+		- [[Databases]]
+- Statistics
+	- [[Hypothesis Testing]]
+	- [[Simpson's Paradox]]
+	- [[AB Testing]]
+	- [[Customer Lifetime Value]]
+	- [[Normal Distribution]]
+	- [[Standard Deviation and Variance ]]
+	- [[Z-Score]]
+	- [[P-Value]]
+	- [[Confidence Interval]]
+	- [[Regression line]]
+	- [[Pool variance]]
+- OOP.
+	- [[4 Pillars]]

@@ -1,0 +1,4 @@
+- Slow learning process.
+- Communication issue.
+- Due to i was working part-time, most of the code part is of full-time colleague.
+- 

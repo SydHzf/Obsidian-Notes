@@ -1,0 +1,276 @@
+{
+  "main": {
+    "id": "7be07f5709d00017",
+    "type": "split",
+    "children": [
+      {
+        "id": "2a9724f569c703e9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1fd5fdbb64cd6fad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Engineer/Index Table.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Index Table"
+            }
+          },
+          {
+            "id": "e94d6002d1c02158",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Engineer/Type Of Schema.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Type Of Schema"
+            }
+          },
+          {
+            "id": "fc86f71c30929efa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Engineer/Commulative Table Design.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Commulative Table Design"
+            }
+          },
+          {
+            "id": "8280cf882d1600c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Engineer/Transaction.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Transaction"
+            }
+          },
+          {
+            "id": "8f2df69acb279534",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Flink's Windows.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Flink's Windows"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "92687e35fcdf03e4",
+    "type": "split",
+    "children": [
+      {
+        "id": "38223f68fddde909",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6f4f513b56037943",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "schema",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d793d1e8a0b1d6bb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "a9a48af3a289fa49",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "b2cf9fa3853e5880",
+    "type": "split",
+    "children": [
+      {
+        "id": "26aea9f56695cf1c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "01a501fb15f08588",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Data Engineer/Kafka.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Kafka"
+            }
+          },
+          {
+            "id": "ccf58f14f70d7aab",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Data Engineer/Kafka.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Kafka"
+            }
+          },
+          {
+            "id": "d803825711e3f30b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "5d5e6c6a0f355b04",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Data Engineer/Kafka.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Kafka"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "1fd5fdbb64cd6fad",
+  "lastOpenFiles": [
+    "Data Engineer/Type Of Schema.md",
+    "Data Engineer/Index Table.md",
+    "Data Engineer/Schema.md",
+    "Data Engineer/ACID.md",
+    "Data Engineer/Transaction.md",
+    "Data Engineer/Idempotent Pipeline.md",
+    "Data Engineer/DataWithZach.md",
+    "Data Engineer/Commulative Table Design.md",
+    "Data Engineer/common pattern.md",
+    "Data Engineer/Cumulative based pattern.md",
+    "Data Engineer/Aggregation based pattern.md",
+    "Data Engineer/Data Modeling.md",
+    "Flink's Windows.md",
+    "Data Engineer/Kafka.md",
+    "Pasted image 20250213120256.png",
+    "Data Engineer/Window based pattern.md",
+    "Data Engineer/When not so Good.md",
+    "Data Engineer/What is Apache Spark.md",
+    "Data Engineer/Understanding, is this fact or dimension.md",
+    "Data Engineer/UDF's vs UDAF's.md",
+    "Data Engineer/The Stretagies of joins.md",
+    "Data Engineer/Shuffle Partition And Shuffle Parallelism.md",
+    "Data Engineer/Shuffle and skew.md",
+    "Data Engineer/Repeatable Analysis.md",
+    "Data Engineer/Python.md",
+    "Data Engineer/plan.md",
+    "extras/Pasted image 20250102225352.png",
+    "Data Engineer/how to minimize the shuffle at hight volumes.md",
+    "extras/SPARK ECOSYSTEM.canvas",
+    "extras/Pasted image 20250123162637.png",
+    "extras/SQL Optimization.pdf",
+    "Untitled.canvas",
+    "extras/The Data Engineering CookBook.pdf",
+    "extras/Pasted image 20241210112311.png",
+    "extras/Pasted image 20250113092814.png",
+    "extras/Pasted image 20250107145905.png",
+    "extras/W1D1.pdf",
+    "extras/Week1Day2.pdf",
+    "Data Engineer/Pasted image 20241231125527.png",
+    "Data Engineer/Pasted image 20241211100742.png",
+    "Data Engineer/Pasted image 20241211100550.png",
+    "extras/Masters SQL in 16 Pages.pdf",
+    "extras/Machine Learning Models_.pdf",
+    "extras/LeetCode_Solutions.pdf",
+    "extras/Introduction To Large Language Models.pdf",
+    "extras/dimensional_data_modeling_day_1.pdf",
+    "extras/fact-data-modeling-day-1-jade-wilson.pdf",
+    "Data Engineer/Pasted image 20241211095443.png",
+    "Untitled 1.canvas"
+  ]
+}
