@@ -11,18 +11,18 @@ ___
 
 
 ![[Pasted image 20250102225352.png]]
-**Cluster Manager** : It is also a computerwhich assign driver and eexecutors
+**Cluster Manager** : It is also a computer which assign driver and executors
 **Driver**: The driver is the machine in which application runs. It is responsible for 3 main things:
-    Maintaining information about the spark application
-    Responding to user's program
-    Analyzing, distributing and scheduling work across the executors
+    - Maintaining information about the spark application
+    - Responding to user's program
+    - Analyzing, distributing and scheduling work across the executors
     
-**Executors** Each executor will hold the chunk of the data to be processed. This chunk is called partition. It is a collection of rows that sits on one physical machine in the cluster. The executors are responsible for  carrying out the work assigned by the driver. Each executor is responsible for 2 things:
-      Execute the code assigned by driver
-      Report the state of the computation back to the driver
+**Executors** Each executor will hold the chunk of the data to be processed. This chunk is called partition. It is a collection of rows that sits on one physical machine in the cluster. The executors are responsible for carrying out the work assigned by the driver. Each executor is responsible for 2 things:
+      - Execute the code assigned by driver
+      - Report the state of the computation back to the driver
 
 **Task**
-Tasks are created by the driver and assigned a partition of data to process. A partition is a collection of rows . Then sits on one physical machine in your cluster. Then tasks are assigned to slots for parallel execution. Once started each task will fetch its assigned partition from the original data source
+Tasks are created by the driver and assigned a partition of data to process. A partition is a collection of rows. Then sits on one physical machine in your cluster. Then tasks are assigned to slots for parallel execution. Once started each task will fetch its assigned partition from the original data source
 ___
 ## Transformation and Actions in Spark.
 - Data transformation is called **Transformation**
@@ -35,9 +35,10 @@ ___
 Fault Tolerance is handle by DAG, calculating process again if its data failed.
 ___
 ## Spark SQL Engine Compiler(Catalyst Optimizer)
+![[Pasted image 20250311232705.png]]
  convert our code into RDD(Java Bytes code)
  - It Works in 4 phases
-	 1. **Analysis Phase**: convert our unresolved logical plan into resolved logical plan checking catalog (metadata). checking did this thing exist or not
+	 1. **Analysis Phase**: convert our unresolved logical plan into resolved logical plan checking catalog (metadata). checking did the file name , table name , column name exist or not
 	 2. **Logical Planning**: do optimization on resolved logical plan (lazy evaluation)
 	 3. **Physical Planning or Spark planning**: create multiple plans and find the best physical plan (joins etc) by cost_modeling
 	 4. **Code generation**: each executor gets this code to execute it.

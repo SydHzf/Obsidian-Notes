@@ -4,77 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2a9724f569c703e9",
+        "id": "79c2441f7200da5b",
         "type": "tabs",
         "children": [
           {
-            "id": "1fd5fdbb64cd6fad",
+            "id": "9a471fe91e288f97",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Engineer/Kafka.md",
+                "file": "Data Engineer/Index Table.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kafka"
-            }
-          },
-          {
-            "id": "e94d6002d1c02158",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Engineer/Type Of Schema.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Type Of Schema"
-            }
-          },
-          {
-            "id": "fc86f71c30929efa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Engineer/Commulative Table Design.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Commulative Table Design"
-            }
-          },
-          {
-            "id": "8280cf882d1600c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Engineer/Transaction.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Transaction"
-            }
-          },
-          {
-            "id": "8f2df69acb279534",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Flink's Windows.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Flink's Windows"
+              "title": "Index Table"
             }
           }
         ]
@@ -96,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "schema",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -131,7 +75,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -221,36 +165,40 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a9a48af3a289fa49",
+  "active": "9a471fe91e288f97",
   "lastOpenFiles": [
-    "extras/Pasted image 20250213120256.png",
-    "Data Engineer/Docker.md",
+    "Debezium.md",
     "Data Engineer/Index Table.md",
-    "Data Engineer/Type Of Schema.md",
-    "Data Engineer/Schema.md",
-    "Data Engineer/ACID.md",
-    "Data Engineer/Transaction.md",
-    "Data Engineer/Idempotent Pipeline.md",
-    "Data Engineer/DataWithZach.md",
-    "Data Engineer/Commulative Table Design.md",
-    "Data Engineer/common pattern.md",
-    "Data Engineer/Cumulative based pattern.md",
-    "Data Engineer/Aggregation based pattern.md",
-    "Data Engineer/Data Modeling.md",
-    "Data Engineer/Flink's Windows.md",
     "Data Engineer/Kafka.md",
-    "Data Engineer/Window based pattern.md",
-    "Data Engineer/When not so Good.md",
-    "Data Engineer/What is Apache Spark.md",
-    "Data Engineer/Understanding, is this fact or dimension.md",
-    "Data Engineer/UDF's vs UDAF's.md",
-    "Data Engineer/The Stretagies of joins.md",
-    "Data Engineer/Shuffle Partition And Shuffle Parallelism.md",
-    "Data Engineer/Shuffle and skew.md",
-    "Data Engineer/Repeatable Analysis.md",
-    "Data Engineer/Python.md",
-    "extras/Pasted image 20250102225352.png",
+    "Data Engineer/Spark.md",
+    "Redis.md",
+    "Data Engineer/Databases.md",
+    "Data Engineer/Youtube Vidoes.md",
+    "Data Engineer/DataWithZach.md",
+    "Data Engineer/plan.md",
+    "Data Engineer/Data Warehouse.md",
+    "Data Engineer/Airflow.md",
     "extras/SPARK ECOSYSTEM.canvas",
+    "Pasted image 20250311232705.png",
+    "Data Engineer/SQL.md",
+    "Data Engineer/Cloud Pub-Sub.md",
+    "Data Engineer/Amazon Glue.md",
+    "Data Engineer/Python.md",
+    "redundancy.md",
+    "Data Engineer/Data Modeling.md",
+    "Data Engineer/DE Infrastructure.md",
+    "Data Engineer/Life Cycle.md",
+    "Data Engineer/OLTP (OnLine Transection Process).md",
+    "Data Engineer/Type Of Schema.md",
+    "Data Engineer/Transaction.md",
+    "Data Engineer/Type of Keys.md",
+    "Data Engineer/Partitioning And Sharding.md",
+    "Data Engineer/Hashing.md",
+    "Data Engineer/Normalization.md",
+    "extras/The Fundamentals Of DE.pdf",
+    "extras/The Fundamentals Of DE.pdf.crdownload",
+    "extras/Pasted image 20250213120256.png",
+    "extras/Pasted image 20250102225352.png",
     "extras/Pasted image 20250123162637.png",
     "extras/SQL Optimization.pdf",
     "Untitled.canvas",
@@ -267,9 +215,6 @@
     "extras/Machine Learning Models_.pdf",
     "extras/LeetCode_Solutions.pdf",
     "extras/Introduction To Large Language Models.pdf",
-    "extras/dimensional_data_modeling_day_1.pdf",
-    "extras/fact-data-modeling-day-1-jade-wilson.pdf",
-    "Data Engineer/Pasted image 20241211095443.png",
     "Untitled 1.canvas"
   ]
 }

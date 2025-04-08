@@ -1,0 +1,2 @@
+___
+Data integrity is the maintenance of, and the assurance of, data accuracy and consistency over its entire life-cycle. It is a critical aspect to the design, implementation, and usage of any system that stores, processes, or retrieves data.

@@ -13,7 +13,6 @@ ___
 			- [[Databases|Different Databases]]
 			- [[Data Models]]
 			- [[Normalization]]
-			- [[Schema]]
 			- [[SQL]]
 			- [[PLSQL]]
 			- [[SQL#Indexing|Indexing]]
@@ -35,6 +34,10 @@ ___
 	- Tools.
 		- [[Python]]
 		- [Cloud](https://www.linkedin.com/embed/feed/update/urn:li:share:7256870603150811136)
+		- Storage
+			- [[Redis]]
+		- CDC
+			- [[Debezium]]
 		- ETL Service
 			- [[Amazon Glue]]
 		-  Data Analytics Platform

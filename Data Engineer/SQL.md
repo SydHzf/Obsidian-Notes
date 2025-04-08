@@ -17,6 +17,46 @@
 - *Natural Join* : check if there is any similar column name in both tables (otherwise cross product them)
 - *Self Join*: It is a self joining technique on a particular condition.
 ### Indexing:
+Indexes in databases can significantly improve query performance but also come with trade-offs. Here are the advantages and disadvantages:
+
+### **Advantages of Indexes**
+
+1. **Faster Query Performance**
+    
+    - Indexes speed up `SELECT` queries by allowing the database to find rows more efficiently rather than scanning the entire table.
+2. **Efficient Sorting and Filtering**
+    
+    - `ORDER BY`, `GROUP BY`, and `WHERE` clauses benefit from indexes since they reduce the need for sorting and filtering on large datasets.
+3. **Improved Joins**
+    
+    - When joining tables, indexes help in quickly locating matching rows, optimizing performance.
+4. **Optimized Searching**
+    
+    - Searching for records using indexed columns (`WHERE` conditions) is significantly faster.
+5. **Uniqueness Enforcement**
+    
+    - Unique indexes ensure that duplicate values are not inserted into a column (e.g., primary keys).
+
+### **Disadvantages of Indexes**
+
+1. **Increased Storage Requirements**
+    
+    - Indexes take up additional disk space, which grows as the dataset expands.
+2. **Slower Write Operations (`INSERT`, `UPDATE`, `DELETE`)**
+    
+    - Every time a row is added, deleted, or modified, indexes must be updated, which can slow down write operations.
+3. **Complexity in Maintenance**
+    
+    - More indexes mean more maintenance, such as rebuilding or reorganizing indexes to prevent fragmentation.
+4. **Potential Overhead for Small Tables**
+    
+    - For small datasets, full table scans might be as fast or even faster than using an index.
+5. **Possibility of Wrong Index Usage**
+    
+    - If an index is not designed correctly, the database may not use it effectively, leading to suboptimal performance.
+
+Would you like specific indexing strategies or best practices for data engineering use cases
+
 *Gate smasher* 93~99 [Indexing and Its types](https://youtube.com/playlist?list=PLxCzCOWd7aiFAN6I8CuViBuCdJgiOkT2Y&si=YjgUYxxClrh5rNji)
 - *Indexing* : A way to optimize i/o cost by creating a separate index table which points towards the location of block of that specific record.
 ![[Pasted image 20240729155920.png]]

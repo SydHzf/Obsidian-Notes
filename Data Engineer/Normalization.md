@@ -1,5 +1,5 @@
 ___
-Database normalization is a systematic approach of organizing data in a database to reduce redundancy and improve data integrity. The process involves dividing a database into two or more tables and defining relationships between the tables. The goal is to ensure that the database structure is efficient and that the data is stored logically.
+Database normalization is a systematic approach of organizing data in a database to reduce [[redundancy]] and improve [[data integrity]]. The process involves dividing a database into two or more tables and defining relationships between the tables. The goal is to ensure that the database structure is efficient and that the data is stored logically.
 
 ### Key Concepts of Normalization
 
@@ -36,7 +36,7 @@ Database normalization is a systematic approach of organizing data in a database
 
 ### **2. Second Normal Form (2NF): Eliminate Partial Dependency**
 
-- **Objective:** Remove partial dependencies (when a non-key attribute is dependent only on part of a composite primary key).
+- **Objective:** Remove partial dependencies (when a non-key (non-unique) attribute is dependent only on part of a composite primary key).
 - **Rules:**
     1. Must be in 1NF.
     2. All non-key attributes must depend on the entire primary key.
@@ -71,7 +71,7 @@ Database normalization is a systematic approach of organizing data in a database
 
 ### **3. Third Normal Form (3NF): Eliminate Transitive Dependency**
 
-- **Objective:** Remove transitive dependencies (when a non-key attribute depends on another non-key attribute).
+- **Objective:** Remove transitive dependencies (when a non-key(non-unique) attribute depends on another non-key attribute which depend on a key attribute a -> b -> c).
 - **Rules:**
     1. Must be in 2NF.
     2. No non-key attribute should depend on another non-key attribute.

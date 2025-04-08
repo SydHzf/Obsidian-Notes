@@ -1,5 +1,9 @@
 https://chatgpt.com/share/67077606-8a5c-800f-b1a9-6877d32571cf
 ___
+
+| **PostgreSQL** | Stores Airflow metadata (DAGs, task history, configs).               |
+| -------------- | -------------------------------------------------------------------- |
+| **Redis**      | Message queue for CeleryExecutor (scheduler → worker communication). |
 ```
 NOT FOR Real-time processing*
 ```
